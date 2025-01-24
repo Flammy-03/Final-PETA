@@ -13,7 +13,6 @@ Welcome to the Game Console! This Code features two classic games: **Sudoku** an
 - [How to Play](#how-to-play)
 - [Features](#features)
 - [Getting Started](#getting-started)
-- [License](#license)
 
 ## Game Overview
 
@@ -29,9 +28,6 @@ Sudoku is played on a 9x9 grid divided into 3x3 subgrids. The objective is to fi
 ### How to Play
 
 1. **Input Format**: Enter your move in the format `row col num`. For example, to place the number 5 in the cell at row 0, column 1, type `0 1 5`.
-2. **Invalid Moves**: The game will notify you if your move is invalid due to:
-   - The number already existing in the row or column.
-   - The number already existing in the 3x3 subgrid.
 
 ## Minesweeper
 
@@ -45,7 +41,6 @@ Minesweeper is a grid-based game where players must reveal squares without hitti
 
 ## Features
 
-- **Difficulty Levels for Minesweeper**: Choose from easy, medium, or hard modes, which adjust the grid size and number of mines.
 - **Input Validation**: The console provides feedback for invalid inputs, ensuring a smoother gameplay experience.
 - **Clear Instructions**: Each game provides instructions to help players understand how to play effectively.
 
